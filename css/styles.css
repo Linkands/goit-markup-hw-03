@@ -1,0 +1,223 @@
+/* ========== NAVIGATION  ========== */
+body {
+    font-family: roboto;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+li {
+    list-style: none;
+}
+
+:root {
+    --accent-color: #2196F3;
+    --main-color: #212121;
+    --text-color: #757575;
+    --secondary-color: #FFFFFF;
+}
+
+.portfolio-list-btn:hover,
+.portfolio-list-btn:focus {
+    background: var(--accent-color);
+    /* shadow-middle */
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    color: var(--secondary-color);
+}
+
+.contact-list-ref:hover,
+.contact-list-ref:focus,
+.navigation-list-ref:hover,
+.navigation-list-ref:focus {
+    color: var(--accent-color);
+}
+
+.navigation-list-ref {
+    color: var(--main-color);
+}
+
+.contact-list-ref {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,143;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+.navigation-logo {  
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1,91;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    }
+
+.navigation-logo-blue {
+    color: var(--accent-color);
+}
+
+.navigation-logo-white {
+    color: var(--secondary-color);
+}
+
+.navigation-logo-black {
+    color: var(--main-color);
+}
+
+/* ========== HERO ========== */
+
+.hero {
+    background: #2F303A;
+}
+
+.hero-header {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1,364;
+    /* or 136% */
+    /* text-align: center; */
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: var(--secondary-color);
+}
+
+.hero-btn {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1,875;
+    display: flex;
+    /* align-items: center; */
+    /* text-align: center; */
+    letter-spacing: 0.06em;
+
+    color: var(--secondary-color);
+
+    background: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+/* ========== GOALS ========== */
+
+.goals-list-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1,143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--main-color);
+}
+
+.goals-list-info {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.03em;
+
+    color: var(--text-color);
+}
+
+/* ========== SERVICES ========== */
+
+.services-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1,167;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+
+    color: var(--main-color);
+}
+
+/* ========== TEAM ========== */
+
+.team {
+    background: #F5F4FA;
+}
+
+.team-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1,167;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+
+    color: var(--main-color);
+}
+
+.team-list-item-name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,187;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+
+    color: var(--main-color);
+}
+
+.team-list-item-profession {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1,187;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+
+    color: var(--text-color);
+}
+
+/* ========== FOOTER ========== */
+
+.page-footer {
+    background: #2F303A;
+}
+
+.footer-list-item-address {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1,714;
+    letter-spacing: 0.03em;
+    
+    color: var(--secondary-color);
+}
+
+.footer-list-ref {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1,714;
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* ========== PORTFOLIO NAV ========== */
+
+.portfolio-list-btn {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,625;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+
+    color: var(--main-color);
+    background: #F5F4FA;
+    border-radius: 4px;
+}
