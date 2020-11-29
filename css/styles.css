@@ -75,6 +75,11 @@ li {
 }
 
 .navigation-list-ref {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,143;
+    letter-spacing: 0.02em;
     color: var(--main-color);
 }
 
@@ -371,12 +376,14 @@ li {
     font-weight: 500;
     font-size: 16px;
     line-height: 1,625;
+    /* identical to box height, or 162% */
     text-align: center;
-    align-items: center;
     letter-spacing: 0.03em;
 
     color: var(--main-color);
     background: #F5F4FA;
     border-radius: 4px;
-    padding: 6px 22px;
+    padding: 10px 22px;
+    border: 0px solid black;
+    /* height: 38px; */
 }
